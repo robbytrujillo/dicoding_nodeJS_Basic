@@ -2,6 +2,12 @@ const initialMemoryUsage = process.memoryUsage().heapUsed;
 const yourName = process.argv[2];
 const environtment = process.env.NODE_ENV;
 
+const _= // TODO
+
+const myOddEvenArray = _.partition([1, 2, 3, 4, 5, 6], (n) => n% 2);
+
+console.log(myOddEvenArray)
+
 for(let i = 0; i <= 10000; i++) {
    // Proses looping ini akan membuat penggunaan memori naik
 }
